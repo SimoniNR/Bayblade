@@ -6,7 +6,7 @@ using Photon.Pun;
    public class LobbyManager : MonoBehaviourPunCallbacks
    {
        [Header("Login UI")] 
-       InputField PlayerNameInputField;
+       public InputField PlayerNameInputField;
        
     #region UNITY Methods
     // Start is called before the first frame update
@@ -45,7 +45,16 @@ using Photon.Pun;
     #endregion
     
     #region PHOTON Callback Methods
-    
-    
+
+    public override void OnConnected()
+    {
+        Debug.Log("We connected to Internet");
+    }
+
+    public override void OnConnectedToMaster()
+    {
+        Debug.Log(PhotonNetwork.LocalPlayer.NickName + " is connected to Photon Server");
+    }
+
     #endregion
 }

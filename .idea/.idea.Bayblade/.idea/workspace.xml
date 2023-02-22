@@ -6,15 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="09ad4d11-6d4b-4d4c-97e4-597a09661ef9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bayblade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bayblade/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_Lobby.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_PlayerSelection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_PlayerSelection.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/LobbyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LobbyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bayblade.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Bayblade.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/SceneLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/02/02c758e76bdfa945a43c2a808c44313d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/03/0386806747cb13ee1a9ff13bc893a938" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/04/04b7855cd5e856aa57c5b46be5d39806" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/07/07c17d30adfe7da1693097d1aa026d8a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/0a/0a0e55c0e61233c9e7e91b4108290e25" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/0d/0d33efee9c39811b72ce1d91e02397f8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/0d/0dc798bdbc64a83fe3208bed37f67297" beforeDir="false" />
@@ -24,6 +22,7 @@
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/27/277a9d0c5837218bdc89fdbc6902571e" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/2f/2fd830cd1da1c694a5756dd947a4d2b6" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/30/30eeb623144420fb5b6e9835c785f47b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/39/392428c7fda351cf9e769c3a06785b3c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/3c/3c577c09d547e09851644bb1c8d7b0cf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/40/40b45fd4d0f35c13f7c2ddef12c465d7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/41/41e621347766a8874021de22ea780740" beforeDir="false" />
@@ -49,9 +48,11 @@
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/af/afb31d86ba0043eb4e7c61f0e2d0aecd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/b0/b03c01084b305526b1b9a2fadccfac95" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/b2/b288b34736aef36376381b27743a82c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ba/baacd536ef5eeb9557c03dc01e52aa5a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/c4/c421a2576c9a1694c1258828ee5ccd79" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/c6/c6b7b0e6bf75151f9bfbfeceb47b9e2b" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/cb/cb31f3a00a953f63063efd0723074a98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ce/ce84b4849a4f68200f3dbdab8f5a3e26" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/d3/d3495a6c768065ed7e558d4da11c46f6" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/d6/d63a77e06f36ce940109be59aa195074" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/d8/d82bde97e29e94dcf79ec54a9455fbe4" beforeDir="false" />
@@ -84,17 +85,7 @@
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/PunDemos.DemoSlotcarEditor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/PunDemos.DemoSlotcarEditor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonChat.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonChat.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonRealtime.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonRealtime.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonUnityNetworking.Demos.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonUnityNetworking.Demos.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonUnityNetworking.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonUnityNetworking.Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonUnityNetworking.Utilities.Culling.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonUnityNetworking.Utilities.Culling.Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonUnityNetworking.Utilities.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonUnityNetworking.Utilities.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotonUnityNetworking.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PhotonUnityNetworking.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunDemos.DemoHubEditor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PunDemos.DemoHubEditor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunDemos.DemoSlotcarEditor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PunDemos.DemoSlotcarEditor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
@@ -117,6 +108,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/LobbyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/MovementController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerSelectionManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Spinner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -182,7 +174,9 @@
       <option name="presentableId" value="Default" />
       <updated>1676811064593</updated>
       <workItem from="1676811064642" duration="10465000" />
-      <workItem from="1676988588083" duration="2797000" />
+      <workItem from="1676988588083" duration="2974000" />
+      <workItem from="1677075035756" duration="293000" />
+      <workItem from="1677075344041" duration="3239000" />
     </task>
     <servers />
   </component>
@@ -191,6 +185,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

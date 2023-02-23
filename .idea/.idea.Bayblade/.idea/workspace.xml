@@ -6,15 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="09ad4d11-6d4b-4d4c-97e4-597a09661ef9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bayblade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bayblade/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Player1_Attacker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player1_Attacker.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Player2_Attacker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player2_Attacker.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Player3_Defender.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player3_Defender.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Player4_Defender.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player4_Defender.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_Gameplay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_PlayerSelection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_PlayerSelection.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/LobbyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LobbyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerSelectionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerSelectionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Battle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Battle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bayblade_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bayblade_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bayblade_Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bayblade_Data/globalgamemanagers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bayblade_Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bayblade_Data/globalgamemanagers.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bayblade_Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bayblade_Data/level0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bayblade_Data/level1" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bayblade_Data/level1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bayblade_Data/level2" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bayblade_Data/level2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bayblade_Data/level3" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bayblade_Data/level3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bayblade_Data/resources.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bayblade_Data/resources.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bayblade_Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bayblade_Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bayblade_Data/sharedassets1.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bayblade_Data/sharedassets1.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bayblade_Data/sharedassets2.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bayblade_Data/sharedassets2.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Bayblade_Data/sharedassets3.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Bayblade_Data/sharedassets3.assets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/02/02c758e76bdfa945a43c2a808c44313d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/03/0386806747cb13ee1a9ff13bc893a938" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/04/04b7855cd5e856aa57c5b46be5d39806" beforeDir="false" />
@@ -92,7 +101,6 @@
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.pdb" afterDir="false" />
@@ -100,8 +108,10 @@
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonChat.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonChat.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonChat.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonChat.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonChat.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonChat.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonRealtime.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonRealtime.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonRealtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonRealtime.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonRealtime.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonRealtime.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Demos.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Demos.csproj.AssemblyReference.cache" afterDir="false" />
@@ -220,7 +230,7 @@
       <workItem from="1676988588083" duration="2974000" />
       <workItem from="1677075035756" duration="293000" />
       <workItem from="1677075344041" duration="3239000" />
-      <workItem from="1677138590180" duration="25017000" />
+      <workItem from="1677138590180" duration="31406000" />
     </task>
     <servers />
   </component>

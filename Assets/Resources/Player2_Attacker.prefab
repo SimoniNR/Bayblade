@@ -776,6 +776,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28375b3dc4690be4a8fc75af40936e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spinnerScript: {fileID: 1849808092}
+  spinSpeedBar_Image: {fileID: 1802076416973763616}
+  spinSpeedRatio_Text: {fileID: 100848075634437743}
+  common_Damage_Coefficient: 0.04
+  isAttacker: 0
+  isDefender: 0
+  doDamage_Coefficient_Attacker: 10
+  getDamaged_Coefficient_Attacker: 1.2
+  doDamage_Coefficient_Defender: 0.75
+  getDamaged_Coefficient_Defender: 0.2
 --- !u!1 &1802076418753269999
 GameObject:
   m_ObjectHideFlags: 0

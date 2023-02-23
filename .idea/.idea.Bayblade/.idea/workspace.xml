@@ -7,9 +7,14 @@
     <list default="true" id="09ad4d11-6d4b-4d4c-97e4-597a09661ef9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bayblade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bayblade/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player1_Attacker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player1_Attacker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player2_Attacker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player2_Attacker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player3_Defender.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player3_Defender.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player4_Defender.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player4_Defender.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_Gameplay.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_PlayerSelection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_PlayerSelection.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/LobbyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LobbyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/SceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerSelectionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerSelectionManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/02/02c758e76bdfa945a43c2a808c44313d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/03/0386806747cb13ee1a9ff13bc893a938" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/04/04b7855cd5e856aa57c5b46be5d39806" beforeDir="false" />
@@ -22,7 +27,6 @@
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/27/277a9d0c5837218bdc89fdbc6902571e" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/2f/2fd830cd1da1c694a5756dd947a4d2b6" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/30/30eeb623144420fb5b6e9835c785f47b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/39/392428c7fda351cf9e769c3a06785b3c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/3c/3c577c09d547e09851644bb1c8d7b0cf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/40/40b45fd4d0f35c13f7c2ddef12c465d7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/41/41e621347766a8874021de22ea780740" beforeDir="false" />
@@ -86,19 +90,44 @@
       <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonChat.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonChat.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonRealtime.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonRealtime.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonChat.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonChat.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonChat.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonChat.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonRealtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonRealtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonRealtime.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonRealtime.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Demos.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Demos.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Demos.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Demos.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Demos.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Demos.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Editor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.Culling.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.Culling.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.Culling.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.Culling.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.Culling.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.Culling.Editor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.Utilities.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PhotonUnityNetworking.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PunDemos.DemoHubEditor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PunDemos.DemoHubEditor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PunDemos.DemoHubEditor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PunDemos.DemoHubEditor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PunDemos.DemoHubEditor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PunDemos.DemoHubEditor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PunDemos.DemoSlotcarEditor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PunDemos.DemoSlotcarEditor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PunDemos.DemoSlotcarEditor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PunDemos.DemoSlotcarEditor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PunDemos.DemoSlotcarEditor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PunDemos.DemoSlotcarEditor.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,11 +135,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Battle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/LobbyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/MovementController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/MultiplayerARSpinnerTopGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/MySynchronizationScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerSelectionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerSetup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Spinner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/SpinningTopManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -136,6 +171,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds\Bayblade.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\nrsim\OneDrive\DOC_FACUL\UnityProjects\Bayblade\Bayblade\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Unity_Projects\Bayblade -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -177,6 +220,7 @@
       <workItem from="1676988588083" duration="2974000" />
       <workItem from="1677075035756" duration="293000" />
       <workItem from="1677075344041" duration="3239000" />
+      <workItem from="1677138590180" duration="25017000" />
     </task>
     <servers />
   </component>

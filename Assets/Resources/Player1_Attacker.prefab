@@ -179,6 +179,10 @@ GameObject:
   - component: {fileID: 2523371896380985824}
   - component: {fileID: 251409404}
   - component: {fileID: 6558296989756919237}
+  - component: {fileID: 5073188027380656229}
+  - component: {fileID: 1597954094361926773}
+  - component: {fileID: 4930330347798174449}
+  - component: {fileID: 1775791397510012509}
   m_Layer: 0
   m_Name: Player1_Attacker
   m_TagString: Player
@@ -276,6 +280,70 @@ MonoBehaviour:
   spinSpeed: 3600
   doSpin: 1
   playerGraphics: {fileID: 2523371895095917476}
+--- !u!114 &5073188027380656229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2523371896380985836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 0
+  ObservedComponents:
+  - {fileID: 4930330347798174449}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &1597954094361926773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2523371896380985836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d81da64324ed94fbc79038cfce023e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerNameText: {fileID: 2523371896480695254}
+--- !u!114 &4930330347798174449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2523371896380985836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9162a1c5e993b78409fb18f1d3e291e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  synchronizeVelocity: 1
+  synchronizeAngularVelocity: 1
+  isTeleportEnabled: 1
+  teleportIfDistanceGreaterThan: 1
+--- !u!114 &1775791397510012509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2523371896380985836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28375b3dc4690be4a8fc75af40936e37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2523371896480695252
 GameObject:
   m_ObjectHideFlags: 0

@@ -27,12 +27,27 @@ using UnityEngine.SceneManagement;
     // Start is called before the first frame update
     void Start()
     {
-        uI_LoobyGameobject.SetActive(false);
-        uI_3DGameobject.SetActive(false);
-        uI_ConnectionStatusGameobject.SetActive(false);
+        if (PhotonNetwork.IsConnected)
+        {
+           //activating only Lobby UI
+            uI_LoobyGameobject.SetActive(true);
+            uI_3DGameobject.SetActive(true);
+            
+            uI_ConnectionStatusGameobject.SetActive(false);
+            uI_LoginGameobject.SetActive(false);
+
+        }
+        else
+        {
+           //activating only Login UI since we did not connect to Photon yet
+            uI_LoobyGameobject.SetActive(false);
+            uI_3DGameobject.SetActive(false);
+            uI_ConnectionStatusGameobject.SetActive(false);
+            
+            uI_LoginGameobject.SetActive(true);
+        }
         
-        uI_LoginGameobject.SetActive(true);
-        
+       
     }
 
     // Update is called once per frame
@@ -76,7 +91,8 @@ using UnityEngine.SceneManagement;
 
     public void onQuickMathcButtonClicked()
     {
-        SceneManager.LoadScene("Scene_Loading");
+        //SceneManager.LoadScene("Scene_Loading");
+        SceneLoader.Instance.LoadScene("Scene_PlayerSelection");
     }
     
     #endregion

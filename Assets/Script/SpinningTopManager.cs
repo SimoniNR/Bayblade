@@ -34,6 +34,19 @@ public class SpinningTopManager : MonoBehaviourPunCallbacks
         searchForGameButtonGameobject.SetActive(false);
         
     }
+
+    public void OnQuickMatchButtonClicked()
+    {
+        if (PhotonNetwork.InRoom)
+        {
+            PhotonNetwork.LeaveRoom();
+        }
+        else
+        {
+            SceneLoader.Instance.LoadScene("Scene_Lobby");
+        }
+        
+    }
     
     #endregion
     
@@ -69,6 +82,12 @@ public class SpinningTopManager : MonoBehaviourPunCallbacks
         
         //deactivate message panel after 2 seconds
         StartCoroutine(DeactivateAfterSeconds(uI_InformPanelGameobject, 2.0f));
+    }
+
+    public override void OnLeftRoom()
+    {
+        SceneLoader.Instance.LoadScene("Scene_Lobby");
+    
     }
 
     #endregion

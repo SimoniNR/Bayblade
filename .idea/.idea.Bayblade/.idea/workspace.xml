@@ -8,7 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bayblade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bayblade/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_Gameplay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/SpinningTopManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/SpinningTopManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/ARPlacementAndPlaneDetectionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/ARPlacementAndPlaneDetectionController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/SpawnManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Mobile test/AR_VERSION/NataliaBayblade.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Mobile test/AR_VERSION/NataliaBayblade.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/02/02c758e76bdfa945a43c2a808c44313d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/02/02e1293a1374d1ca19ae8cfcaaac1c36" beforeDir="false" />
@@ -81,7 +82,6 @@
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/c6/c6b7b0e6bf75151f9bfbfeceb47b9e2b" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/c8/c8e921e4e913b019220c57dd0345aac9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/cb/cb31f3a00a953f63063efd0723074a98" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ce/ce84b4849a4f68200f3dbdab8f5a3e26" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/d3/d3495a6c768065ed7e558d4da11c46f6" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/d3/d368a1cf9328277fbd8675072979deb5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/d6/d63a77e06f36ce940109be59aa195074" beforeDir="false" />
@@ -119,7 +119,7 @@
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/PunDemos.DemoSlotcarEditor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/PunDemos.DemoSlotcarEditor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/PunDemos.DemoSlotcarEditor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/PunDemos.DemoSlotcarEditor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" beforeDir="false" />
@@ -188,7 +188,6 @@
       <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f5a26565126d823479b61fa3cff9034a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f6c8f13302789fb41abb218ed4b27088" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ffcd1974c1464c445be6b08ab18b57be" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.FileListAbsolute.txt" afterDir="false" />
@@ -253,6 +252,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/MySynchronizationScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerSelectionManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerSetup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ScaleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Spinner.cs" root0="FORCE_HIGHLIGHTING" />
@@ -337,6 +337,8 @@
       <workItem from="1677681600719" duration="1623000" />
       <workItem from="1677770546070" duration="4588000" />
       <workItem from="1677853033231" duration="1945000" />
+      <workItem from="1678111881924" duration="2571000" />
+      <workItem from="1678284451922" duration="1202000" />
     </task>
     <servers />
   </component>

@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
+using Photon.Realtime;
+using ExitGames.Client.Photon;
 
 public class SpawnManager : MonoBehaviourPunCallbacks
 {
     public GameObject[] playerPrefabs;
     public Transform[] spawnPositions;
-    
+
+    public GameObject battleArenaGameobject;
     public enum RaiseEventCodes
     {
         PlayerSpawnEventCode = 0
@@ -71,11 +74,22 @@ public class SpawnManager : MonoBehaviourPunCallbacks
             {
                 object[] data = new object[]
                 {
-                    playerGameobject.transform.position, playerGameobject.transform.rotation, _photonView.ViewID, playerSelectionNumber
+                    playerGameobject.transform.position - battleArenaGameobject.transform.position, playerGameobject.transform.rotation, _photonView.ViewID, playerSelectionNumber
                 };
-                
+
+                RaiseEventOptions raiseEventOptions = new RaiseEventOptions
+                {
+                    Receivers = ReceiverGroup.Others,
+                    CachingOption = EventCaching.AddToRoomCache
+                };
+                SendOptions sendOptions = new SendOptions
+                {
+                    Reliability = true
+                };
                 // Raise Events!
-                PhotonNetwork.RaiseEvent((byte)RaiseEventCodes.PlayerSpawnEventCode);
+                PhotonNetwork.RaiseEvent((byte)RaiseEventCodes.PlayerSpawnEventCode, data, raiseEventOptions, sendOptions);
+                
+                
             }
             else
             {

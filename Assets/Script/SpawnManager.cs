@@ -1,9 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 using ExitGames.Client.Photon;
+using Object = UnityEngine.Object;
+using Random = UnityEngine.Random;
 
 public class SpawnManager : MonoBehaviourPunCallbacks
 {
@@ -19,7 +22,7 @@ public class SpawnManager : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        
+        PhotonNetwork.NetworkingClient.EventReceived += OnEvent;
     }
 
     // Update is called once per frame
@@ -28,7 +31,27 @@ public class SpawnManager : MonoBehaviourPunCallbacks
         
     }
 
+    private void OnDestroy()
+    {
+        PhotonNetwork.NetworkingClient.EventReceived -= OnEvent;
+    }
+
     #region Photon Callback Methods
+
+    void OnEvent(EventData photonEvent)
+    {
+        if (photonEvent.Code == (byte)RaiseEventCodes.PlayerSpawnEventCode)
+        {
+            object[] data = (object[])photonEvent.CustomData;
+            Vector3 receivedPosition = (Vector3)data[0];
+            Quaternion receivedRotation = (Quaternion)data[1];
+            int receivedPlayerSelectionData = (int)data[3];
+
+            GameObject player = Instantiate(playerPrefabs[receivedPlayerSelectionData], receivedPosition + battleArenaGameobject.transform.position, receivedRotation);
+            PhotonView _photonView = player.GetComponent<PhotonView>();
+            _photonView.ViewID = (int)data[2];
+        }
+    }
 
     public override void OnJoinedRoom()
     {
@@ -77,11 +100,13 @@ public class SpawnManager : MonoBehaviourPunCallbacks
                     playerGameobject.transform.position - battleArenaGameobject.transform.position, playerGameobject.transform.rotation, _photonView.ViewID, playerSelectionNumber
                 };
 
+                //raise events to send the data to other remote players (position of the player instatiate {without the area position}, the viewId, and player selection bayblade)
                 RaiseEventOptions raiseEventOptions = new RaiseEventOptions
                 {
                     Receivers = ReceiverGroup.Others,
                     CachingOption = EventCaching.AddToRoomCache
                 };
+                
                 SendOptions sendOptions = new SendOptions
                 {
                     Reliability = true

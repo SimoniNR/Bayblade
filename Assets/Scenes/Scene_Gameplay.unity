@@ -2725,7 +2725,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7790,6 +7789,7 @@ MonoBehaviour:
   - {fileID: 931434789}
   - {fileID: 2043065518}
   - {fileID: 1650174349}
+  battleArenaGameobject: {fileID: 760013867502548235}
 --- !u!4 &1896840611
 Transform:
   m_ObjectHideFlags: 0
@@ -7836,6 +7836,8 @@ MonoBehaviour:
   uI_InformPanelGameobject: {fileID: 212251898}
   uI_InformText: {fileID: 243443568}
   searchForGameButtonGameobject: {fileID: 623289035}
+  adjust_Button: {fileID: 905712417}
+  raycastCenter_Image: {fileID: 1559264407}
 --- !u!4 &1941517763
 Transform:
   m_ObjectHideFlags: 0

@@ -6,7 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="09ad4d11-6d4b-4d4c-97e4-597a09661ef9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bayblade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bayblade/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player1_Attacker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player1_Attacker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player2_Attacker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player2_Attacker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player3_Defender.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player3_Defender.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player4_Defender.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player4_Defender.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_Gameplay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Battle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Battle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MySynchronizationScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MySynchronizationScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/SpawnManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/SpinningTopManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/SpinningTopManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Mobile test/AR_VERSION/NataliaBayblade.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Mobile test/AR_VERSION/NataliaBayblade.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/02/02c758e76bdfa945a43c2a808c44313d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/02/02e1293a1374d1ca19ae8cfcaaac1c36" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/03/0386806747cb13ee1a9ff13bc893a938" beforeDir="false" />
@@ -84,8 +93,8 @@
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/d8/d82bde97e29e94dcf79ec54a9455fbe4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/dc/dcff61d2f9a2b7d0a07ae8ddd4b542d4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/de/de3fac373c702a329b0cbcfba9b5b566" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e3/e3726e25530f57ab352b9e11962d425e" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/e5/e5f6e0b9072d6b4f5655ef5b9ba4d193" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ea/eabf5887078d843bd355ee1d3821c12f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/ed/ed29699abd77d81083750df332297ece" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/ee/ee377af04fbebdada1169accefbed3c9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/ef/ef2532ca4e5ac0f5e810049514015dba" beforeDir="false" />
@@ -116,14 +125,15 @@
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/PunDemos.DemoSlotcarEditor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/PunDemos.DemoSlotcarEditor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe12.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe13.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe14.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe15.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
@@ -335,6 +345,8 @@
       <workItem from="1677853033231" duration="1945000" />
       <workItem from="1678111881924" duration="2571000" />
       <workItem from="1678284451922" duration="2343000" />
+      <workItem from="1678716452965" duration="3754000" />
+      <workItem from="1678802615807" duration="1276000" />
     </task>
     <servers />
   </component>

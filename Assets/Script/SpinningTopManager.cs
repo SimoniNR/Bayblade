@@ -11,6 +11,8 @@ public class SpinningTopManager : MonoBehaviourPunCallbacks
     public GameObject uI_InformPanelGameobject;
     public TextMeshProUGUI uI_InformText;
     public GameObject searchForGameButtonGameobject;
+    public GameObject adjust_Button;
+    public GameObject raycastCenter_Image;
     
     // Start is called before the first frame update
     void Start()
@@ -61,6 +63,9 @@ public class SpinningTopManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
+       adjust_Button.SetActive(false);
+       raycastCenter_Image.SetActive(false);
+        
         //if there are more than 2 players per room remember to change here 
         if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
         {
